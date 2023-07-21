@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+/* ==================nav style start======== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+
+
+}
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav_logo .nav_title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.nav_title .golapi {
+    color: #FF42A5;
+}
+
+.nav_menu {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: end;
+}
+
+.nav_menu>ul {
+    display: flex;
+    gap: 32px;
+}
+
+.nav_menu li {
+    font-size: 1.12rem;
+    font-weight: 500;
+    color: #3C354F;
+}
+
+.nav_button {
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.nav_button>ul {
+    display: flex;
+    gap: 24px;
+}
+
+.nav_button ul img {
+    width: 24px;
+}
+
+/* banner part */
+.banner_section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.play_banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.banner_content h4 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner_content h3 {
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner_content ul li {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #534C64;
+    text-transform: lowercase;
+    margin-bottom: 20px;
+}
+
+.btn_group .sign {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 3rem;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+
+.btn_group .go {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 3rem;
+    background: #4EC5F7;
+}
+
+/* banner style end */
+/* player_community style start */
+.player_community {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.community_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.community_description {
+    text-align: right;
+}
+
+.community_description h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.community_description p {
+    color: #534C64;
+    font-size: 1.12rem;
+    font-weight: 400;
+    margin: 25px 0 30px;
+}
+
+.community_button {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 3rem;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    margin-bottom: 25px;
+}
+
+.purpose {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #534C64;
+}
+
+.community_description h5 {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* player_community style end */
+/* online_game_zone style start */
+.online_game_zone {
+    max-width: 1440px;
+    margin: 120px auto;
+}
+
+.games_container {
+    text-align: center;
+}
+
+.game_zone_title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+    margin-bottom: 15px;
+}
+
+.gradiant_color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.game_zone_description {
+    color: #534C64;
+    font-size: 1.12rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.funny_video_container {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* online_game_zone style end */
+/* instantly play style start */
+.instant_game_zone {
+    max-width: 1440px;
+    margin: 120px auto;
+}
+
+.instant_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 260px;
+}
+
+.instant_content {
+    text-align: right;
+}
+
+.instant_title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.gradiant_instant {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instant_description {
+    color: #534C64;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+
+.instant_img {
+    position: relative;
+}
+
+.small_card {
+    position: absolute;
+    bottom: -86px;
+    left: -160px;
+}
+
+/* instantly play style end */
+/* career style start */
+.career {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 100px 0;
+
+}
+
+.career_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.career_items {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.career_content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.career_content p {
+    font-size: 1.12rem;
+    font-weight: 400;
+    color: #fff;
+    margin: 24px 0 32px;
+}
+
+.oppurtunity li {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.place {
+    text-align: right;
+}
+
+.career_img img {
+    display: block;
+    text-align: right;
+    width: 700px;
+}
+
+.career_btn {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FF42A5;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 3rem;
+    background: #fff;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    margin-top: 25px;
+}
+
+/* career style end */
+/* play button style start */
+
+.play_buttons {
+    padding: 100px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.button_list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 20px; */
+    align-items: center;
+
+}
+
+.button_list ul li img {
+    vertical-align: middle;
+}
+
+.button_list ul li {
+    margin: 20px 15px;
+}
+
+.button_list li a {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0B0223;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 25px 15px;
+
+}
+
+.button_list li a:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    color: #FF42A5;
+}
+
+/* play button style end */
+.footer {
+    background: #0B0223;
+    padding: 120px 0;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_logo .footer_title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer_title .golapi {
+    color: #FF42A5;
+}
+
+.footer_menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 65px 0;
+}
+
+.footer_menu ul li {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer_icon ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.icon_list li a {
+    color: #fff;
+    font-size: 40px;
+}
+
+.cookies_part ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 70px 0 28px;
+}
+
+.cookies_part ul li {
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+}
+.copy_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy_right p{
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+
+}
+/* media query */
+@media screen and (max-width:576px) {
+    nav, .nav_menu, .menu_item, .community_content, .funny_video_container,.instant_container,.career_container{
+        flex-direction: column;
+    }
+    .play_banner{
+        flex-direction: column-reverse;
+    }
+    nav{
+        background: none;
+        box-shadow: none;
+    }
+    
+}
